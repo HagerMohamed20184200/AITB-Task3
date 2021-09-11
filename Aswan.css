@@ -1,0 +1,109 @@
+/*To set page border to 0*/
+*{
+    padding:0;
+    margin:0;
+}
+/*Change the color of text in the body to white*/
+body{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Set the background image for the header*/
+#background1{
+    background:url("b.jpg");
+    height: 1000px;
+    width:100%;
+    box-shadow: 0 4px 5px gray;
+    animation: animate 50s ease-in infinite;
+    background-size: cover;
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image: url("a.jpg");
+    }
+    25%{
+        background-image: url("b.jpg");
+    }
+    50%{
+        background-image: url("c.jpg");
+    }
+    75%{
+        background-image: url("d.jpg");
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+.header1{
+    height:100px;
+}
+
+
+/*Adds styling to the menu content (Home, about, contact us)*/
+nav{
+    width:100%;
+    height:50px;
+}
+/*Adds styling to the unordered list content*/
+nav ul{
+    list-style-type:none;
+    overflow:hidden;
+    border:none;
+    padding:0;
+    margin:0;
+}
+/*Adds styling to the list item content*/
+nav ul li{
+    float: left;
+}
+/*Adds styling to the links in the menu*/
+nav ul li a{
+    color: #fff;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: block;
+	padding: 11px 40px;
+	transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+
+nav ul li a:hover{
+    color:orangered;
+}
+nav ul li a:active{
+color:orangered;
+}
+
+
+select{
+    width: 200px;
+  padding: 16px 20px;
+  margin-left:80px;
+  border: none;
+  border-bottom:2px solid black;
+}
+
+
+
+td{
+	padding:15px;
+}
+
+.Egy{
+	color:orangered;
+	font-size:20px;
+}
+.l{
+	color:White;
+	font-size:20px;
+}
